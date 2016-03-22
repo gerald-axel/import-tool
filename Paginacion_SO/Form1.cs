@@ -14,15 +14,23 @@ namespace Paginacion_SO
     {
         public int TamañoMemoria;
         public int TamañoPagina;
+
+        public string Nombre_Proceso;
+        public int Tamaño_Proceos;
         public int tamano;
+        //public string[] Procesos;
         
         public Form1()
         {
             InitializeComponent();
+            textBox3.Enabled = false;
+            textBox4.Enabled = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
+
             TamañoMemoria = Convert.ToInt32(textBox1.Text);
             TamañoPagina = Convert.ToInt32(textBox2.Text);
             if (TamañoMemoria > TamañoPagina)
@@ -40,10 +48,10 @@ namespace Paginacion_SO
                 Button b = new Button();
                 b.Name = "b" + (i * tamano).ToString() + (500).ToString();
                 b.Size = new Size(20, 60);
-                b.BackColor = Color.White;
+                b.BackColor = Color.Green;
                 b.FlatStyle = FlatStyle.Flat;
                 b.FlatAppearance.BorderColor = Color.Black;
-                b.Location = new Point(i*20,180);
+                b.Location = new Point((i*20)+25,180);
                 this.Controls.Add(b);
             }
 
@@ -51,7 +59,10 @@ namespace Paginacion_SO
             Tam_Pag.Text = Convert.ToString(TamañoPagina) + " MB";
             num_Pag.Text = Convert.ToString(tamano);
 
-
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+            textBox3.Enabled = true;
+            textBox4.Enabled = true;
 
 
 
@@ -60,6 +71,15 @@ namespace Paginacion_SO
 
         private void label7_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Nombre_Proceso = Convert.ToString(textBox3.Text);
+            Tamaño_Proceos = Convert.ToInt32(textBox4.Text);
+
+
 
         }
     }

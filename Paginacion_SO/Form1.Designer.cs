@@ -41,13 +41,19 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.num_Pag = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(12, 68);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(109, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "Crear Memoria";
             this.button1.UseVisualStyleBackColor = true;
@@ -155,11 +161,68 @@
             this.num_Pag.Size = new System.Drawing.Size(0, 13);
             this.num_Pag.TabIndex = 12;
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(335, 19);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 16;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(335, 49);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.TabIndex = 15;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(243, 45);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(88, 13);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "Tamaño Proceso";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(243, 22);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(86, 13);
+            this.label9.TabIndex = 13;
+            this.label9.Text = "Nombre Proceso";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(441, 49);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(23, 13);
+            this.label10.TabIndex = 17;
+            this.label10.Text = "MB";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(246, 68);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(98, 23);
+            this.button2.TabIndex = 18;
+            this.button2.Text = "Crear Proceso";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(506, 262);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.num_Pag);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -195,6 +258,12 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label num_Pag;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button button2;
     }
 }
 
