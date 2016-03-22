@@ -1,1 +1,9 @@
 c:\users\eduardo\documents\visual studio 2015\Projects\Paginacion_SO\Paginacion_SO\bin\Debug\Paginacion_SO.exe.config
+c:\users\eduardo\documents\visual studio 2015\Projects\Paginacion_SO\Paginacion_SO\bin\Debug\Paginacion_SO.exe
+c:\users\eduardo\documents\visual studio 2015\Projects\Paginacion_SO\Paginacion_SO\bin\Debug\Paginacion_SO.pdb
+c:\users\eduardo\documents\visual studio 2015\Projects\Paginacion_SO\Paginacion_SO\obj\Debug\Paginacion_SO.csprojResolveAssemblyReference.cache
+c:\users\eduardo\documents\visual studio 2015\Projects\Paginacion_SO\Paginacion_SO\obj\Debug\Paginacion_SO.Form1.resources
+c:\users\eduardo\documents\visual studio 2015\Projects\Paginacion_SO\Paginacion_SO\obj\Debug\Paginacion_SO.Properties.Resources.resources
+c:\users\eduardo\documents\visual studio 2015\Projects\Paginacion_SO\Paginacion_SO\obj\Debug\Paginacion_SO.csproj.GenerateResource.Cache
+c:\users\eduardo\documents\visual studio 2015\Projects\Paginacion_SO\Paginacion_SO\obj\Debug\Paginacion_SO.exe
+c:\users\eduardo\documents\visual studio 2015\Projects\Paginacion_SO\Paginacion_SO\obj\Debug\Paginacion_SO.pdb
