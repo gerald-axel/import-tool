@@ -47,6 +47,10 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -163,14 +167,14 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(335, 19);
+            this.textBox3.Location = new System.Drawing.Point(337, 16);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 16;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(335, 49);
+            this.textBox4.Location = new System.Drawing.Point(337, 42);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 15;
@@ -212,11 +216,51 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.richTextBox1.Location = new System.Drawing.Point(17, 373);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(312, 143);
+            this.richTextBox1.TabIndex = 19;
+            this.richTextBox1.Text = "";
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.Color.Red;
+            this.richTextBox2.Location = new System.Drawing.Point(356, 373);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(319, 143);
+            this.richTextBox2.TabIndex = 20;
+            this.richTextBox2.Text = "";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(16, 334);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(116, 13);
+            this.label11.TabIndex = 21;
+            this.label11.Text = "Procesos en Ejecucion";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(353, 334);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(102, 13);
+            this.label12.TabIndex = 22;
+            this.label12.Text = "Procesos en Espera";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(506, 262);
+            this.ClientSize = new System.Drawing.Size(700, 537);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.textBox3);
@@ -237,7 +281,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Simulador de manejo de memoria \"Paginación\"";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -264,6 +308,10 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
     }
 }
 
